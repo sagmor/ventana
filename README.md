@@ -1,6 +1,6 @@
 # Ventana
 
-TODO: Write a gem description
+Ventana takes two dates and gives you a nice string with the window between those two dates
 
 ## Installation
 
@@ -18,11 +18,20 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Just pass two dates to the `Ventana` method and get back a string with the window between those two dates.
+
+```ruby
+date1 = 
+date2 = 
+
+puts Ventana(date1,date2)
+# => 
+
+```
 
 ## Contributing
 
-1. Fork it ( http://github.com/<my-github-username>/ventana/fork )
+1. Fork it ( http://github.com/sagmor/ventana/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
