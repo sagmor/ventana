@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Ventana::VERSION
   spec.authors       = ["Seba Gamboa"]
   spec.email         = ["me@sagmor.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{Ventana makes window strings}
+  spec.description   = %q{Ventana takes two dates and gives you a nice string with the window between those two dates}
+  spec.homepage      = "https://github.com/sagmor/ventana"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -18,6 +18,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
+  spec.add_dependency "i18n"
   spec.add_development_dependency "bundler", "~> 1.5"
   spec.add_development_dependency "rake"
 end
