@@ -1,5 +1,5 @@
-require "i18n"
+require 'ventana/i18n'
 
 def Ventana(from,to,options={})
-  "#{from} #{to}"
+  "#{I18n.locale} #{from} #{to}"
 end
