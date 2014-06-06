@@ -1,9 +1,9 @@
 locale,from,to,expectation
-en, 2014-06-06 12:00:00, 2014-06-06 15:00:00, "June 6th, 2014 from 12PM to 3PM"
-es, 2014-06-06 12:00:00, 2014-06-06 15:00:00, "6 de junio del 2014 entre 12PM y 3PM"
-es, 2014-06-05 12:00:00, 2014-06-10 15:00:00, "5 al 10 de junio del 2014 entre 12PM y 3PM"
-es, 2014-06-01 12:00:00, 2014-06-30 15:00:00, "junio del 2014 entre 12PM y 3PM"
-es, 2014-06-01 00:00:00, 2014-06-30 23:00:00, "junio del 2014"
-es, 2014-06-01 12:00:00, 2014-07-31 15:00:00, "junio y julio del 2014 entre 12PM y 3PM"
-es, 2014-06-05 12:00:00, 2014-07-10 15:00:00, "5 de junio al 10 de julio del 2014 entre 12PM y 3PM"
+en,2014-06-06 12:00:00,2014-06-06 15:00:00,"June 6th, 2014 from 12PM to 3PM"
+es,2014-06-06 12:00:00,2014-06-06 15:00:00,"6 de junio del 2014 entre 12PM y 3PM"
+es,2014-06-05 12:00:00,2014-06-10 15:00:00,"5 al 10 de junio del 2014 entre 12PM y 3PM"
+es,2014-06-01 12:00:00,2014-06-30 15:00:00,"junio del 2014 entre 12PM y 3PM"
+es,2014-06-01 00:00:00,2014-06-30 23:00:00,"junio del 2014"
+es,2014-06-01 12:00:00,2014-07-31 15:00:00,"junio y julio del 2014 entre 12PM y 3PM"
+es,2014-06-05 12:00:00,2014-07-10 15:00:00,"5 de junio al 10 de julio del 2014 entre 12PM y 3PM"
 
