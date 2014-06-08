@@ -43,12 +43,31 @@ module Ventana
                                   end
                                 end
   end
+
+  def time_format(date)
+    str = date.strftime "%l"
+    if date.min > 0
+      str << ":" << date.strftime("%M")
+    end
+    str << " " << date.strftime("%P")
+
+    str.strip
+  end
+
+  def show_time?(from,to)
+    from.hour != 0 ||
+      from.minutes != 0 ||
+      from.seconds != 0 ||
+      to.hour != 12 ||
+      to.minutes != 0 ||
+      to.seconds != 0
+  end
 end
 
 def Ventana(from,to,options={})
   raise ArgumentError, "#{from} is bigger than #{to}" if from > to 
 
-  I18n.t(Ventana.date_format(from,to), {
+  date = I18n.t(Ventana.date_format(from,to), {
     from_year: from.year,
     from_month: I18n.t('ventana.month_names')[from.month],
     from_day: from.day,
@@ -57,4 +76,12 @@ def Ventana(from,to,options={})
     to_day: to.day,
     scope: :ventana
   })
+
+  time = I18n.t(:time_difference, { 
+    from_time: Ventana.time_format(from),
+    to_time: Ventana.time_format(to),
+    scope: :ventana,
+  })
+
+  [date, time].join(' ')
 end
