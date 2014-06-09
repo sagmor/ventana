@@ -5,7 +5,7 @@ require 'time'
 # This test case runs all the examples from the examples.csv file
 class ExampleTest < TestCase
 
-  CSV.foreach(File.expand_path('../examples.csv',__FILE__),{
+  CSV.read(File.expand_path('../examples.csv',__FILE__),{
     headers: true
   }).each_with_index do |row, index|
     define_method "test_example_#{index + 1}" do
