@@ -49,7 +49,7 @@ module Ventana
     if date.min > 0
       str << ":" << date.strftime("%M")
     end
-    str << " " << date.strftime("%P")
+    str << "" << date.strftime("%p")
 
     str.strip
   end

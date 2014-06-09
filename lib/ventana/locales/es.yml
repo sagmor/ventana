@@ -2,7 +2,7 @@ es:
   ventana:
     full_dates_with_days: "%{from_day} de %{from_month} del %{from_year} a %{to_day} de %{to_month} del %{to_year}"
     full_dates_without_days: "%{from_month} del %{from_year} a %{to_month} del %{from_year}"
-    single_year_with_days: "%{from_day} de %{from_month} a %{to_day} de %{to_month} del %{from_year}"
+    single_year_with_days: "%{from_day} de %{from_month} al %{to_day} de %{to_month} del %{from_year}"
     single_year_without_days: "%{from_month} a %{to_month} del %{from_year}"
     single_month_with_days: "%{from_day} al %{to_day} de %{from_month} del %{from_year}"
     single_month_without_days: "%{from_month} del %{from_year}"

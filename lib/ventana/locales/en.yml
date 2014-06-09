@@ -1,5 +1,13 @@
 en:
   ventana:
+    full_dates_with_days: "%{from_month} %{from_day}, %{from_year} to %{to_month} %{to_day}, %{to_year}"
+    full_dates_without_days: "%{from_month} %{from_year} to %{to_month} %{from_year}"
+    single_year_with_days: "%{from_month} %{from_day} to %{to_month} %{to_day}, %{from_year}"
+    single_year_without_days: "%{from_month} to %{to_month} %{from_year}"
+    single_month_with_days: "%{from_month} %{from_day} to %{to_day}, %{from_year}"
+    single_month_without_days: "%{from_month} %{from_year}"
+    single_day: "%{from_month} %{from_day}, %{from_year}"
+    time_difference: "from %{from_time} to %{to_time}"
     day_names:
     - Sunday
     - Monday
