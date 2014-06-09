@@ -1,5 +1,10 @@
 # Ventana
 
+[![Gem Version](https://badge.fury.io/rb/ventana.png)](https://rubygems.org/gems/ventana)
+[![Build Status](https://travis-ci.org/sagmor/ventana.svg)](https://travis-ci.org/sagmor/ventana)
+[![Coverage](https://codeclimate.com/github/sagmor/ventana/coverage.png)](https://codeclimate.com/github/sagmor/ventana)
+[![Code Climate](https://codeclimate.com/github/sagmor/ventana.png)](https://codeclimate.com/github/sagmor/ventana)
+
 Ventana takes two dates and gives you a nice string with the window between those two dates
 
 ## Installation
