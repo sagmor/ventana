@@ -1,6 +1,9 @@
 require 'bundler/setup'
 require 'test/unit'
 
+require "codeclimate-test-reporter"
+CodeClimate::TestReporter.start
+
 require 'ventana'
 
 # Remove deprecation warning
