@@ -81,7 +81,7 @@ def Ventana(from,to,options={})
     from_time: Ventana.time_format(from),
     to_time: Ventana.time_format(to),
     scope: :ventana,
-  })
+  }) unless options[:only] == :date
 
-  [date, time].join(' ')
+  [date, time].compact.join(' ')
 end
