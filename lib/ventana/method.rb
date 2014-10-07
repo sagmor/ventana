@@ -45,13 +45,7 @@ module Ventana
   end
 
   def time_format(date)
-    str = date.strftime "%l"
-    if date.min > 0
-      str << ":" << date.strftime("%M")
-    end
-    str << "" << date.strftime("%p")
-
-    str.strip
+    date.strftime("%l:%M %P").strip
   end
 
   def show_time?(from,to)
