@@ -59,6 +59,9 @@ module Ventana
 end
 
 def Ventana(from,to,options={})
+  from = from.in_time_zone if from.respond_to?(:in_time_zone)
+  to = to.in_time_zone if to.respond_to?(:in_time_zone)
+
   raise ArgumentError, "#{from} is bigger than #{to}" if from > to 
 
   date = I18n.t(Ventana.date_format(from,to), {
